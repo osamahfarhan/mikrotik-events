@@ -9,7 +9,7 @@ MikroTik RouterOS based Scripts, Events Handler , Tips and Tricks
 
 -  (Mikrotik v7 scripts).
 -  (Mikrotik v6 scripts).
-```RouterOS Script
+```"RouterOS Script"
 
 /system logging action add name="pppoeEvent" target=memory memory-lines=100;
 
