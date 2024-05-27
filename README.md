@@ -66,6 +66,11 @@ MikroTik RouterOS based Scripts, Events Handler , Tips and Tricks
 
 https://www.facebook.com/osamahfarhan
 
+# Citation My script
+Name : Osamah Abdo Farhan Ali
+Email : osamahfarhan1995@gmail.com
+
+
 # Examples
 
 ##this function runs when new user added or change on hotspot user
