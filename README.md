@@ -9,7 +9,7 @@ MikroTik RouterOS based Scripts, Events Handler , Tips and Tricks
 
 -  (Mikrotik v7 scripts).
 -  (Mikrotik v6 scripts).
-```rsc
+```RouterOS Script
 
 /system logging action add name="pppoeEvent" target=memory memory-lines=100;
 
@@ -70,7 +70,7 @@ https://www.facebook.com/osamahfarhan
 
 ##this function runs when new user added or change on hotspot user
 
-```rsc
+```RouterOS Script
 
 :global EventHandler do={/log info "Eng-osamah-Event username=$Name changed";:return 0;};
 
@@ -81,7 +81,7 @@ https://www.facebook.com/osamahfarhan
 
 ##this code handle when New Client Added to host or change to Active
 
-```rsc
+```RouterOS Script
 
 :global EventHandler do={/log info "Eng-osamah-Event New Host Added the IP=$Address";:return 0;};
 
