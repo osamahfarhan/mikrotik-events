@@ -1,6 +1,9 @@
-# MikroTik Scripts
+# MikroTik Scripts Events 
 
 MikroTik RouterOS based Scripts, Events Handler , Tips and Tricks
+
+this is new abroach of scripting
+
 
 ## In this repo...
 
@@ -73,7 +76,7 @@ Email : osamahfarhan1995@gmail.com
 
 # Examples
 
-##this function runs when new user added or change on hotspot user
+## this function runs when new user added or change on hotspot user
 
 ```RouterOS Script
 
@@ -82,9 +85,9 @@ Email : osamahfarhan1995@gmail.com
 /ip hotspot user print follow-only where [$EventHandler Name=$name];
 
 ```
-##now Try to Add New User manually and go to see the log :)
+## now Try to Add New User manually and go to see the log :)
 
-##this code handle when New Client Added to host or change to Active
+## this code handle when New Client Added to host or change to Active
 
 ```RouterOS Script
 
