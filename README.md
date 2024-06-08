@@ -1,8 +1,8 @@
-# MikroTik Scripts Events 
+# Mikrotik Events Script New Abroach
 
 MikroTik RouterOS based Scripts, Events Handler , Tips and Tricks
 
-this is new abroach of scripting
+This approach can be used for various fuctions script requests how to parse log records to do some logic, no need to track last processed record by timestamp called with some interval scheduler, instead :execute script which runs in background that calls event global function with log properites in arguments when log record occurs. Such script can be added in startup scheduler to catch all needed log records and process by event function. Very handy for such need.
 
 
 ## In this repo...
